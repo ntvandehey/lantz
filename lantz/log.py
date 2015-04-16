@@ -16,6 +16,8 @@ import socket
 import struct
 import logging
 import threading
+import colorama
+from colorama import Fore, Back, Style
 
 from logging import DEBUG, INFO, WARNING, ERROR, CRITICAL
 from logging.handlers import SocketHandler, DEFAULT_TCP_LOGGING_PORT, DEFAULT_UDP_LOGGING_PORT
