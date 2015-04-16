@@ -102,7 +102,7 @@ Lantz uses the Pint_ package to declare units:
     from lantz import Q_
 
     with LantzSignalGenerator('TCPIP::localhost::5678::SOCKET') as inst:
-        inst.amplitude = Q_(1, 'Volts')
+        inst.amplitude = Q_(1, 'volts')
         print('amplitude: {}'.format(inst.amplitude))
 
 the output is::
