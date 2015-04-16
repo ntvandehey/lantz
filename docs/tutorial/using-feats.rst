@@ -119,7 +119,7 @@ and allowing better interoperability:
     from lantz import Q_
 
     with LantzSignalGenerator('TCPIP::localhost::5678::SOCKET') as inst:
-        inst.amplitude = Q_(.1, 'decivolt')
+        inst.amplitude = Q_(1, 'decivolt')
         print('amplitude: {}'.format(inst.amplitude))
 
 the output is::
